@@ -1,4 +1,5 @@
 #Project Structure :
+
 1- Create a Laravel project with a version upper than 8 .
 2- Dockerize project without using Laravel Sail .
 Use these containers : 
@@ -41,8 +42,9 @@ Parameters:
 - acknowledgement_required
 - file
 Tests ( Feature ) :
-1- test that with a correct request body ( parameters ) this webservice works fine. 
-----------------------------------------------------------------------------------------------------------------------------------------
+
+1-test that with a correct request body ( parameters ) this webservice works fine. 
+------
 3- Trash:
 Description: 
 It is responsible for trashing a policy, means setting is_trashed field to Yes.
@@ -51,7 +53,7 @@ Url : api/v1/policies/{policy_id}/trash
 Response : returns the result ( success or false, with proper message ) 
 Tests ( Feature ) :
 1- test that this webservice can successfully trash a non_trashed policy .
-----------------------------------------------------------------------------------------------------------------------------------------
+-------
 4- Delete
 Description: It is responsible for deleting a policy . 
 Method: DELETE
